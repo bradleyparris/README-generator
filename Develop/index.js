@@ -4,6 +4,8 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+
+
 const questions = [
     {name: 'license',
     message: 'Select kind of license for this application:',
@@ -37,6 +39,7 @@ const questions = [
     message: 'What do you want to call this readme?',
     type: 'input'},
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
